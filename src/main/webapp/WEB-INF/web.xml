@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0"
+         metadata-complete="true">
+
+  <display-name>Ecommerce_Web_App</display-name>
+
+  <!-- ==================== SERVLET DECLARATIONS ==================== -->
+
+  <servlet>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.HomeServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.RegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.LogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ForgotPasswordServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.ForgotPasswordServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ResetPasswordServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.ResetPasswordServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.ProductServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>CategoryServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.CategoryServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ProductListingServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.ProductListingServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.SearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.CartServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.CheckoutServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.OrderServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>PaymentServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.PaymentServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.ProfileServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AddressServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.AddressServlet</servlet-class>
+  </servlet>
+
+  <!-- ==================== SERVLET MAPPINGS ==================== -->
+
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ForgotPasswordServlet</servlet-name>
+    <url-pattern>/forgot-password</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ResetPasswordServlet</servlet-name>
+    <url-pattern>/reset-password</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/product</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CategoryServlet</servlet-name>
+    <url-pattern>/category</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ProductListingServlet</servlet-name>
+    <url-pattern>/products</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <url-pattern>/checkout</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/order</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/orders</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PaymentServlet</servlet-name>
+    <url-pattern>/payment</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddressServlet</servlet-name>
+    <url-pattern>/address</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddressServlet</servlet-name>
+    <url-pattern>/address-selection</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/order-confirmation</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/order-tracking</url-pattern>
+  </servlet-mapping>
+
+  <!-- ==================== WELCOME FILES ==================== -->
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.xhtml</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.xhtml</welcome-file>
+  </welcome-file-list>
+
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <page-encoding>UTF-8</page-encoding>
+      <default-content-type>text/html; charset=UTF-8</default-content-type>
+    </jsp-property-group>
+  </jsp-config>
+
+  <!-- ==================== SESSION CONFIG ==================== -->
+
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+
+</web-app>

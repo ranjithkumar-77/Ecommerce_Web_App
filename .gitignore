@@ -1,0 +1,11 @@
+/target/
+/.metadata/
+/Servers/
+/.idea/
+*.iml
+*.class
+*.log
+*.war
+.env
+.env.*
+!.env.example

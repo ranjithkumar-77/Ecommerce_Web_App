@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Ecommerce_Web_App-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
+        <dependent-module archiveName="jakarta.servlet.jsp.jstl-3.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/maven-dependencies/org.glassfish.web/jakarta.servlet.jsp.jstl/3.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.servlet.jsp.jstl-api-3.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/maven-dependencies/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api/3.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.mail-2.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/maven-dependencies/com.sun.mail/jakarta.mail/2.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.activation-2.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/maven-dependencies/com.sun.activation/jakarta.activation/2.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.el-api-5.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/maven-dependencies/jakarta.el/jakarta.el-api/5.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.10.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/maven-dependencies/com.google.code.gson/gson/2.10.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Ecommerce_Web_App"/>
+        <property name="java-output-path" value="/Ecommerce_Web_App/target/classes"/>
+    </wb-module>
+</project-modules>
